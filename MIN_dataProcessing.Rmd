@@ -1,0 +1,64 @@
+---
+title: "Meta-analysis of invasive species' impacts on N cycling (MIN) - Data Processing"
+author: "Marissa Lee"
+date: "October 28, 2014"
+output: pdf_document
+---
+
+*Filename: MIN_dataProcessing.Rmd'*
+_________________________________________________________________
+
+
+#TRY data
+
+##1. Load TRY data
+```{r,echo=TRUE}
+source('1_TRY_dataProcessing/TRYdata_part1.R')
+#str(data)
+```
+
+##2. Clean TRY data
+```{r,echo=TRUE}
+source('1_TRY_dataProcessing/TRYdata_part2.R')
+#str(data)
+```
+
+
+_________________________________________________________________
+
+
+#BGC data
+
+##1. Load BGC data
+```{r,echo=TRUE}
+source('2_BGC_dataProcessing/BGCdata_part1n2.R')
+#str(data)
+```
+
+##2. Something else
+```{r,echo=TRUE}
+source('2_BGC_dataProcessing/BGCdata_part3.R')
+#str(data)
+```
+
+##3. Something else
+```{r,echo=TRUE}
+source('2_BGC_dataProcessing/BGCdata_reformat.R')
+#str(data)
+```
+
+
+_________________________________________________________________
+
+
+#Preliminary graphs
+
+##1. Stuff
+```{r,echo=TRUE}
+source('3_graphingResults/BGCdata_part4n5.R')
+#str(data)
+```
+
+
+
+
